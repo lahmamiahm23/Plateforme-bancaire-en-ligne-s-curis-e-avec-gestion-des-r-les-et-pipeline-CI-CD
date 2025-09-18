@@ -1,0 +1,98 @@
+// =============== WAFASALAF & EMI THEME COLORS ===============
+
+// --------------- Couleurs Principales EMI ---------------
+$emi-rouge-principal: #DC143C;
+$emi-rouge-fonce: #B22222;
+$emi-rouge-clair: #FF6B6B;
+$emi-bleu-principal: #1E3A8A;
+$emi-bleu-fonce: #0F1D4A;
+$emi-bleu-clair: #3B82F6;
+
+// --------------- Couleurs Secondaires Wafasalaf ---------------
+$wafasalaf-or: #D4AF37;
+$wafasalaf-or-fonce: #B8860B;
+$wafasalaf-or-clair: #FFD700;
+
+// --------------- Couleurs de Fond ---------------
+$main-bg-gradient: linear-gradient(135deg, $emi-bleu-principal 0%, $emi-rouge-principal 100%);
+$secondary-bg-gradient: linear-gradient(90deg, $emi-bleu-fonce 0%, $emi-rouge-fonce 100%);
+$accent-bg-gradient: linear-gradient(45deg, $wafasalaf-or 0%, $emi-rouge-clair 100%);
+
+$bg-light: #F8FAFC;
+$bg-main: $emi-bleu-fonce;
+$home-bg: linear-gradient(180deg, $emi-bleu-principal 0%, $emi-bleu-fonce 100%);
+$abt-bg: $emi-rouge-fonce;
+$skill-bg: #1E293B;
+$proj-bg: #0F172A;
+$contact-bg: $emi-bleu-fonce;
+$navbar-bg: rgba(30, 58, 138, 0.95);
+$stk-nav-bg: $emi-bleu-principal;
+$navbar-border: $emi-rouge-principal;
+$left-bg: #475569;
+
+// --------------- Couleurs de Texte ---------------
+$accent-color: $wafasalaf-or;
+$accent1000: $emi-rouge-principal;
+$accent400: rgba(212, 175, 55, 0.15);
+$text-low: rgba(255, 255, 255, 0.8);
+$text-primary: $emi-bleu-principal;
+$text-secondary: $emi-rouge-principal;
+$main1: $emi-bleu-clair;
+$grad-main: linear-gradient(to right, $emi-rouge-principal, $wafasalaf-or);
+
+// --------------- Ombres EMI Style ---------------
+$box-shadow-low: 0 4px 20px rgba(30, 58, 138, 0.15);
+$box-shadow-high: 0 10px 25px rgba(220, 20, 60, 0.25);
+$box-shadow-emi: 0 8px 32px rgba(30, 58, 138, 0.3);
+$box-shadow-wafasalaf: 0 6px 24px rgba(212, 175, 55, 0.2);
+
+// --------------- Nuances et Variants ---------------
+$white-1000: #FFFFFF;
+$white-700: rgba(255, 255, 255, 0.9);
+$black-1000: #000000;
+$black-900: #0F172A;
+$black-800: #1E293B;
+$black-400: #64748B;
+$black-200: rgba(148, 163, 184, 0.2);
+$black-100: #F1F5F9;
+$black-alpha-100: rgba(0, 0, 0, 0.6);
+
+// --------------- Couleurs Spéciales EMI ---------------
+$emi-excellence: linear-gradient(135deg, $wafasalaf-or 0%, $emi-rouge-principal 50%, $emi-bleu-principal 100%);
+$emi-innovation: linear-gradient(90deg, $emi-bleu-clair 0%, $wafasalaf-or-clair 100%);
+$emi-tradition: linear-gradient(45deg, $emi-rouge-fonce 0%, $emi-bleu-fonce 100%);
+
+// --------------- Couleurs Réseaux Sociaux ---------------
+$linkedin: #0A66C2;
+$github: #171515;
+$instagram: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+$whatsapp: #25D366;
+$facebook: #1877F2;
+$twitter: #1DA1F2;
+
+// --------------- États Interactifs ---------------
+$hover-emi-rouge: lighten($emi-rouge-principal, 10%);
+$hover-emi-bleu: lighten($emi-bleu-principal, 10%);
+$hover-wafasalaf: lighten($wafasalaf-or, 15%);
+$active-emi: darken($emi-rouge-principal, 5%);
+
+// --------------- Mesures et Rayons ---------------
+$br-5: 5px;
+$br-10: 10px;
+$br-15: 15px;
+$br-20: 20px;
+$br-25: 25px;
+$br-30: 30px;
+$br-emi: 12px; // Rayon signature EMI
+$br-wafasalaf: 8px; // Rayon signature Wafasalaf
+
+// --------------- Transitions EMI ---------------
+$transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+$transition-emi: all 0.35s ease-in-out;
+
+// --------------- Couleurs Success/Error/Warning ---------------
+$success-emi: #059669;
+$error-emi: $emi-rouge-principal;
+$warning-emi: $wafasalaf-or;
+$info-emi: $emi-bleu-clair;
