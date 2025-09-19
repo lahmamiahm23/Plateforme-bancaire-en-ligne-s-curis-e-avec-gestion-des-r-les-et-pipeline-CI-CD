@@ -18,7 +18,7 @@ function AddCard(props) {
   });
 const location=useLocation();
   const [cardtype, setCardType] = useState(['DEBIT', 'CREDIT']);
-  const [cardNetworks] = useState(['MASTER', 'VISA', 'RUPAY']);
+  const [cardNetworks] = useState(['MASTER', 'VISA', 'CMI']);
   const accountId=props.user.id;
   const history = useHistory();
   useEffect(()=>{

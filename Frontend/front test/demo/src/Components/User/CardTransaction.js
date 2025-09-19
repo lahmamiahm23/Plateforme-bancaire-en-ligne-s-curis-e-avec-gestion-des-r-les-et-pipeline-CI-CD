@@ -23,7 +23,7 @@ function CardTransaction(props) {
   });
 const location=useLocation();
   const [cardtype, setCardType] = useState(['DEBIT']);
-  const [cardNetworks] = useState(['MASTER', 'VISA', 'RUPAY']);
+  const [cardNetworks] = useState(['MASTER', 'VISA', 'CMI']);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
