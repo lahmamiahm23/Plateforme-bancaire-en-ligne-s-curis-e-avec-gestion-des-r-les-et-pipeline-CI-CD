@@ -27,7 +27,7 @@ services:
   frontend:
     build:
       context: ./docker/Frontend
-      dockerfile: Dockerfile
+      dockerfile: Frontend/front test/demo/Dockerfile
     container_name: emi-frontend
     restart: always
     ports:
